@@ -18,7 +18,7 @@ function startTimer () {
     let seconds = document.getElementById("seconds").value;
 
     if(hours == "" && minutes == "" && seconds == "") {
-        alert("Enter the time");
+        alert("Please enter the time");
         return;
     }
 
